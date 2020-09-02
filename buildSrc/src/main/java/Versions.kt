@@ -1,0 +1,40 @@
+/**
+ * Created by ShanRuFu on 2020/9/2.
+ * FileVersion : 1.0
+ * Des : 依赖库版本管理
+ */
+object Versions {
+    const val retrofit = "2.9.0"
+    const val okhttpLogging = "3.9.0"
+    const val okhttp = "4.8.1"
+    const val appcompat = "1.2.0"
+    const val coreKtx = "1.3.1"
+    const val constraintlayout = "2.0.1"
+    const val hilt = "2.28-alpha"
+    const val runtime = "0.11.0"
+    const val room = "2.2.5"
+    const val fragment = "1.2.5"
+    const val navigation = "2.3.0"
+    const val viewpager2 = "1.0.0"
+    const val arouter = "1.5.0"
+    const val kotlin = "1.3.72"
+    const val arouterCompiler = "1.2.2"
+    const val eventBus = "3.2.0"
+    const val mmkv = "1.2.2"
+    const val lottie = "3.4.2"
+    const val recyclerview = "1.0.0"
+    const val cardview = "1.0.0"
+    const val swiperefreshlayout = "1.0.0"
+    const val workManager = "2.4.0"
+    const val junit = "4.13"
+    const val junitExt = "1.1.1"
+    const val espressoCore = "3.2.0"
+    const val coroutinesAndroid = "1.3.7"
+    const val coroutinesCore = "1.3.8"
+    const val baseAdapter = "3.0.4"
+    const val appStartup = "1.0.0-alpha01"
+    const val material = "1.2.0-alpha06"
+    const val hiltViewModule = "1.0.0-alpha01"
+    const val paging = "3.0.0-alpha03"
+    const val coroutinesScope = "2.3.0-alpha07"
+}
