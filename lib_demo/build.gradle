@@ -1,20 +1,19 @@
-apply plugin: 'com.android.application'
+apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
-apply plugin: 'kotlin-kapt'
 
 android {
     compileSdkVersion BuildConfig.compileSdkVersion
     buildToolsVersion BuildConfig.buildToolsVersion
-
+    resourcePrefix "demo_"
     defaultConfig {
-        applicationId BuildConfig.applicationId
         minSdkVersion BuildConfig.minSdkVersion
         targetSdkVersion BuildConfig.targetSdkVersion
         versionCode BuildConfig.versionCode
         versionName BuildConfig.versionName
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        consumerProguardFiles "consumer-rules.pro"
     }
 
     buildTypes {
@@ -40,7 +39,7 @@ android {
 }
 
 dependencies {
+    api project(path: ':lib_common')
     implementation fileTree(dir: "libs", include: ["*.jar"])
-    implementation project(path: ':lib_common')
-    implementation project(path: ':lib_demo')
+    implementation 'com.github.chrisbanes:PhotoView:2.3.0'
 }

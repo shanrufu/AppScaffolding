@@ -20,26 +20,37 @@ object Android {
     const val meteria = "com.google.android.material:material:${Versions.material}"
 }
 
+object MGradle {
+    const val tools = "com.android.tools.build:gradle:${Versions.gradle}"
+}
+
 /**
  * Jetpack组件
  */
 object Jetpack {
     //初始化组件
     const val appStartup = "androidx.startup:startup-runtime:${Versions.appStartup}"
+
     //数据库组件
     const val roomRuntime = "androidx.room:room-runtime:${Versions.room}"
     const val roomCompiler = "androidx.room:room-compiler:${Versions.room}"
     const val roomKtx = "androidx.room:room-ktx:${Versions.room}"
+
     //分页列表组件
     const val pagingRuntime = "androidx.paging:paging-runtime:${Versions.paging}"
+
     //导航组件
-    const val navigationFragmentKtx = "androidx.navigation:navigation-fragment-ktx:${Versions.navigation}"
+    const val navigationFragmentKtx =
+        "androidx.navigation:navigation-fragment-ktx:${Versions.navigation}"
     const val navigationUiKtx = "androidx.navigation:navigation-ui-ktx:${Versions.navigation}"
+
     //依赖注入组件
     const val hiltDaggerRuntime = "com.google.dagger:hilt-android:${Versions.hilt}"
     const val hiltDaggerCompiler = "com.google.dagger:hilt-android-compiler:${Versions.hilt}"
     const val hiltViewModule = "androidx.hilt:hilt-lifecycle-viewmodel:${Versions.hiltViewModule}"
     const val hiltCompiler = "androidx.hilt:hilt-compiler:${Versions.hiltViewModule}"
+    const val hiltPlugin = "com.google.dagger:hilt-android-gradle-plugin:${Versions.hilt}"
+
     //后台作业调度组件
     const val workManagerKtx = "androidx.work:work-runtime-ktx:${Versions.workManager}"
 }

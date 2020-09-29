@@ -7,7 +7,7 @@ apply plugin: 'dagger.hilt.android.plugin'
 android {
     compileSdkVersion BuildConfig.compileSdkVersion
     buildToolsVersion BuildConfig.buildToolsVersion
-
+    resourcePrefix "base_"
     defaultConfig {
         minSdkVersion BuildConfig.minSdkVersion
         targetSdkVersion BuildConfig.targetSdkVersion

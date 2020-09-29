@@ -17,7 +17,7 @@ object Versions {
     const val navigation = "2.3.0"
     const val viewpager2 = "1.0.0"
     const val arouter = "1.5.0"
-    const val kotlin = "1.3.72"
+    const val kotlin = "1.4.0"
     const val arouterCompiler = "1.2.2"
     const val eventBus = "3.2.0"
     const val mmkv = "1.2.2"
@@ -37,4 +37,5 @@ object Versions {
     const val hiltViewModule = "1.0.0-alpha01"
     const val paging = "3.0.0-alpha03"
     const val coroutinesScope = "2.3.0-alpha07"
+    const val gradle = "4.0.1"
 }
